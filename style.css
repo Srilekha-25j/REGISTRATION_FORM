@@ -1,0 +1,64 @@
+body{
+    background: rgb(181,9,143);
+    background: linear-gradient(90deg, rgba(181,9,143,0.9781162464985994) 26%, rgba(121,36,189,1) 58%, rgba(47,8,120,1) 83%);
+    margin:0;
+    font-family: 'popins','sanserif';
+}
+#form{
+    width: 400px;
+    height:max-content;
+   
+    margin:15vh auto 0 auto;
+    background-color: rgb(1, 1, 1);
+    border-radius: 5px;
+    padding: 20px;
+   }
+
+h1{
+    text-align: center;
+    color: antiquewhite;
+
+}
+#form button{
+    background-color: rgb(235, 10, 74);
+    color: rgb(246, 238, 228);
+    font-weight: 500;
+    border: 1px solid rgb(160, 37, 72);
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width:100%;
+    }
+
+.input-group{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 15px;
+    font-size: large;
+    color: rgb(235, 230, 223);
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(233, 5, 69);
+    
+}
+.input-group input:focus{
+    outline: 0;
+}
+.error{
+    color:rgb(210, 12, 12);
+    font-size: 16px;
+    margin-top: 5px;
+}
+.input-group.success input{
+    border-color: green;
+}
+.input-group.error input{
+    border-color: red;
+}
